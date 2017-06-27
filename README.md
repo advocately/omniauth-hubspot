@@ -22,7 +22,7 @@ Here's a quick example, adding the middleware to a Rails app in `config/initiali
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :hubspot, ENV['HUBSPOT_KEY'], ENV['HUBSPOT_SECRET']
+  provider :hubspot, ENV['HUBSPOT_CLIENT_ID'], ENV['HUBSPOT_CLIENT_SECRET']
 end
 ```
 
