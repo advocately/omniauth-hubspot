@@ -11,6 +11,7 @@ module OmniAuth
         site: 'https://api.hubapi.com',
         authorize_url: 'https://app.hubspot.com/oauth/authorize',
         token_url: 'oauth/v1/token'
+        auth_scheme: :request_body
       }
 
       def callback_url
