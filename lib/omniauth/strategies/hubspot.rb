@@ -13,7 +13,6 @@ module OmniAuth
         token_url: 'oauth/v1/token',
         auth_scheme: :request_body
       }
-
     end
   end
 end
